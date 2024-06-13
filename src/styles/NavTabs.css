@@ -1,0 +1,16 @@
+.header {
+  background-image: url('src/components/images/diagonalStripes.jpg');
+}
+
+.nav-link {
+  color: white !important;
+}
+
+.nav-link:hover {
+  /*background-color: rgb(120, 116, 187) !important;*/
+  font-size: 20px;
+}
+
+.active {
+  text-decoration-line: underline !important;
+}
