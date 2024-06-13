@@ -1,7 +1,20 @@
+const styles = {
+  headerStyle: {
+    color: 'white',
+    height: 100,
+    backgroundImage: "url('src/components/images/diagonalStripes.jpg')"
+  },
+  headingStyle: {
+    fontSize: '50px',
+    marginLeft: 25 
+  },
+}
+
 export default function About() {
   return (
     <div>
       <h1>About Page</h1>
+      <img src="url('src/components/images/profileIconPic.jpg" style={styles.headerStyle}></img>
       <p>
         Nunc pharetra finibus est at efficitur. Praesent sed congue diam.
         Integer gravida dui mauris, ut interdum nunc egestas sed. Aenean sed
