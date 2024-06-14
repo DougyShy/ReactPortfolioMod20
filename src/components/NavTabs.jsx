@@ -58,9 +58,6 @@ function NavTabs({ currentPage, handlePageChange }) {
               Resume
             </a>
           </li>
-          
-          
-          
         </ul>
     </div>
   );
