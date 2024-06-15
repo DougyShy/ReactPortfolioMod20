@@ -1,7 +1,14 @@
+const styles = {
+  contactStyle: {
+    backgroundColor: 'lightBlue', 
+    color: 'white',
+  },
+}
+
 export default function Contact() {
   return (
-    <div>
-      <h1>Contact Page</h1>
+    <div style={styles.contactStyle} className="px-5 py-3">
+      <h1>Contact</h1>
       <p>
         Integer cursus bibendum sem non pretium. Vestibulum in aliquet sem, quis
         molestie urna. Aliquam semper ultrices varius. Aliquam faucibus sit amet

@@ -4,15 +4,15 @@ const styles = {
     height: 100,
     backgroundImage: "url('src/components/images/diagonalStripes.jpg')"
   },
-  headingStyle: {
-    fontSize: '50px',
-    marginLeft: 25 
+  aboutStyle: {
+    backgroundColor: 'lightBlue', 
+    color: 'white'
   },
 }
 
 export default function About() {
   return (
-    <div>
+    <div style={styles.aboutStyle} className="px-5 py-3">
       <h1>About Page</h1>
       <img src="url('src/components/images/profileIconPic.jpg" style={styles.headerStyle}></img>
       <p>

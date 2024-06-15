@@ -1,7 +1,17 @@
 /* FOOTER.JSX */
+const styles = {
+  footerStyle: {
+    backgroundColor: 'lightBlue', 
+    color: 'white',
+    fontSize: '50px'
+  },
+}
+
 function Footer() {
   return (
-    <h1>FOOTER HERE</h1>
+    <div style={styles.footerStyle} className="px-5 py-3">
+      <h1>Footer</h1>
+    </div>
   );
 }
 
