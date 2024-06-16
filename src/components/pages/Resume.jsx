@@ -7,7 +7,7 @@ const styles = {
 
 export default function Resume() {
   return (
-    <div style={styles.resumeStyle} className="px-5 py-3">>
+    <div style={styles.resumeStyle} className="px-5 py-3">
       <h1>Resume Page</h1>
       <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque

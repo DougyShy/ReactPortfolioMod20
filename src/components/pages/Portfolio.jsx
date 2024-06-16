@@ -1,3 +1,6 @@
+import React, {useState} from 'react';
+import PortfolioBox from './PortfolioBox';
+
 const styles = {
   portfolioStyle: {
     backgroundColor: 'lightBlue', 
@@ -14,43 +17,33 @@ const styles = {
 }
 
 export default function Portfolio() {
+  const [isHovered, setIsHovered] = useState(false);
+  
   return (
     <div style={styles.portfolioStyle} className="px-5 py-3">
       <h1>Portfolio</h1>
       <div className="container">
         <div className="row p-3">
-          <div className="col-sm p-3 container position-relative">
-            <img src="src\components\images\smartMirror.png"></img>
-            <div className="position-absolute container" style={styles.resumeLinkStyle}>
-              <h5>Magic Mirror</h5><img id='MMID' src='src\components\images\gitHubUnfocused.png' style={styles.resumeGitImg}/>     
-            </div>
+          <div className="col p-3">
+            <PortfolioBox />
           </div>
-
-
-
-
-
-
-
-          <div className="col-sm p-3">
-            <img src="src\components\images\smartMirror.png"></img>
+          <div className="col p-3">
+            <PortfolioBox />
           </div>
-          <div className="col-sm p-3">
-            <img src="src\components\images\smartMirror.png"></img>
+          <div className="col p-3">
+            <PortfolioBox />
+          </div>
+          <div className="col p-3">
+            <PortfolioBox />
+          </div>
+          <div className="col p-3">
+            <PortfolioBox />
           </div>
           <div className="col-sm p-3">
-            <img src="src\components\images\smartMirror.png"></img>
+            <PortfolioBox />
           </div>
-          <div className="col-sm p-3">
-            <img src="src\components\images\smartMirror.png"></img>
-          </div>
-          <div className="col-sm p-3">
-            <img src="src\components\images\smartMirror.png"></img>
-          </div>
-          
-      </div>    
-    </div>
-      
+        </div>    
+      </div>
     </div>
   );
 }
