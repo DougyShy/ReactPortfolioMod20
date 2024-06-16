@@ -5,8 +5,12 @@ const styles = {
     fontSize: '50px',
   },
   resumeLinkStyle: {
-  top: '50%', left: '5%', width: '75%', height: '100%', display: 'flex', alignItems: 'left', justifyContent: 'left', opacity: 0.5 }
-  
+    top: '50%', left: '5%', width: '75%', height: '100%', display: 'flex', alignItems: 'left', justifyContent: 'left', opacity: 1},
+  resumeGitImg: {
+    maxHeight: '0.4em',
+    paddingLeft: 10,
+    
+  },
 }
 
 export default function Portfolio() {
@@ -17,9 +21,8 @@ export default function Portfolio() {
         <div className="row p-3">
           <div className="col-sm p-3 container position-relative">
             <img src="src\components\images\smartMirror.png"></img>
-            <div className="position-absolute" style={styles.resumeLinkStyle}>
-              <h5>BILLY HOSSNESS</h5>
-              
+            <div className="position-absolute container" style={styles.resumeLinkStyle}>
+              <h5>Magic Mirror</h5><img src='src\components\images\gitHubUnfocused.png' style={styles.resumeGitImg}/>     
             </div>
           </div>
 
