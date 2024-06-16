@@ -22,7 +22,7 @@ export default function Portfolio() {
           <div className="col-sm p-3 container position-relative">
             <img src="src\components\images\smartMirror.png"></img>
             <div className="position-absolute container" style={styles.resumeLinkStyle}>
-              <h5>Magic Mirror</h5><img src='src\components\images\gitHubUnfocused.png' style={styles.resumeGitImg}/>     
+              <h5>Magic Mirror</h5><img id='MMID' src='src\components\images\gitHubUnfocused.png' style={styles.resumeGitImg}/>     
             </div>
           </div>
 
