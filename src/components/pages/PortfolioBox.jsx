@@ -1,12 +1,12 @@
-
+import React, { useState } from 'react';
 
 export default function PortfolioBox(props) {
-    //const [isHovered, setIsHovered] = useState(false);
+    const [isHovered, setIsHovered] = useState(false);
     const boxStyle = {
         opacity: '0.75',
     };
 
-    // Helper functions here
+    // Helper functions here if/when needed
 
     // Return HTML
     return (
@@ -14,7 +14,7 @@ export default function PortfolioBox(props) {
             <div className="box" style={boxStyle}>
                 <img
                     className="box-img-top"
-                    src={`src/components/images/smartMirror.png`}
+                    src={`${props.src}`}
                 />
             </div>
 

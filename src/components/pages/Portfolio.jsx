@@ -24,22 +24,22 @@ export default function Portfolio() {
       <h1>Portfolio</h1>
       <div className="container">
         <div className="row p-3">
-          <div className="col p-3">
+          <div className="col-4 p-3">
             <PortfolioBox />
           </div>
-          <div className="col p-3">
+          <div className="col-4 p-3">
+            <PortfolioBox src={`src/components/images/smartMirror.png`} />
+          </div>
+          <div className="col-4 p-3">
             <PortfolioBox />
           </div>
-          <div className="col p-3">
+          <div className="col-4 p-3">
             <PortfolioBox />
           </div>
-          <div className="col p-3">
+          <div className="col-4 p-3">
             <PortfolioBox />
           </div>
-          <div className="col p-3">
-            <PortfolioBox />
-          </div>
-          <div className="col-sm p-3">
+          <div className="col-4 p-3">
             <PortfolioBox />
           </div>
         </div>    
