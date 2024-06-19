@@ -1,5 +1,4 @@
-import React, {useState} from 'react';
-import PortfolioBox from './PortfolioBox';
+import '../../styles/Portfolio.css';
 
 const styles = {
   portfolioStyle: {
@@ -7,43 +6,42 @@ const styles = {
     color: 'white',
     fontSize: '50px',
   },
+
   resumeLinkStyle: {
     top: '50%', left: '5%', width: '75%', height: '100%', display: 'flex', alignItems: 'left', justifyContent: 'left', opacity: 1},
-  resumeGitImg: {
-    maxHeight: '0.4em',
-    paddingLeft: 10,
-    
+  
+  portfolioCard: {
+    padding: '1rem',
+    textAlign: 'center',
   },
 }
 
 export default function Portfolio() {
-  const [isHovered, setIsHovered] = useState(false);
   
   return (
     <div style={styles.portfolioStyle} className="px-5 py-3">
-      <h1>Portfolio</h1>
-      <div className="container">
-        <div className="row p-3">
-          <div className="col-4 p-3">
-            <PortfolioBox />
-          </div>
-          <div className="col-4 p-3">
-            <PortfolioBox src={`src/components/images/smartMirror.png`} />
-          </div>
-          <div className="col-4 p-3">
-            <PortfolioBox />
-          </div>
-          <div className="col-4 p-3">
-            <PortfolioBox />
-          </div>
-          <div className="col-4 p-3">
-            <PortfolioBox />
-          </div>
-          <div className="col-4 p-3">
-            <PortfolioBox />
-          </div>
-        </div>    
-      </div>
+      <h1>Portfolios</h1>
+      <div className="d-flex flex-wrap justify-content-evenly gap-3">
+        <div>
+          <img src='src\components\images\smartMirror.png' className="portfolio-image" />
+        </div>
+        <div>
+          <img src='src\components\images\smartMirror.png' />
+        </div>
+        <div>
+          <img src='src\components\images\smartMirror.png' />
+        </div>
+        <div>
+          <img src='src\components\images\smartMirror.png' />
+        </div>
+        <div>
+          <img src='src\components\images\smartMirror.png' />
+        </div>
+        <div>
+          <img src='src\components\images\smartMirror.png' />
+        </div>
     </div>
+    </div>
+
   );
 }
