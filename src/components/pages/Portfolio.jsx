@@ -21,26 +21,14 @@ export default function Portfolio() {
   return (
     <div style={styles.portfolioStyle} className="px-5 py-3">
       <h1>Portfolios</h1>
-      <div className="d-flex flex-wrap justify-content-evenly gap-3">
-        <div>
-          <img src='src\components\images\smartMirror.png' className="portfolio-image" />
+      <div className="container">
+        <div className="row">
+          <div className="col-md-4">
+            <img className="portfolio-image" src='src/components/images/smartMirror.png' />
+
+          </div>
         </div>
-        <div>
-          <img src='src\components\images\smartMirror.png' />
-        </div>
-        <div>
-          <img src='src\components\images\smartMirror.png' />
-        </div>
-        <div>
-          <img src='src\components\images\smartMirror.png' />
-        </div>
-        <div>
-          <img src='src\components\images\smartMirror.png' />
-        </div>
-        <div>
-          <img src='src\components\images\smartMirror.png' />
-        </div>
-    </div>
+      </div>
     </div>
 
   );
