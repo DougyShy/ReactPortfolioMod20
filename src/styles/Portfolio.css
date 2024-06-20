@@ -1,3 +1,7 @@
 .portfolio-image {
   opacity: 0.5;
 }
+
+.portfolio-image:hover {
+  opacity: 1;
+}
