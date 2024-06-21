@@ -4,7 +4,7 @@ import '../../styles/Contact.css';
 // Here we import a helper function that will check if the email is valid
 import { checkPassword, validateEmail } from '../utils/helpers.js';
 
-function Form() {
+function Contact() {
   // Create state variables for the fields in the form
   // We are also setting their initial values to an empty string
   const [email, setEmail] = useState('');
@@ -28,7 +28,7 @@ function Form() {
     }
   };
 
-  const handleFormSubmit = (e) => {
+  const handleContactSubmit = (e) => {
     // Preventing the default behavior of the form submit (which is to refresh the page)
     e.preventDefault();
 
@@ -56,7 +56,7 @@ function Form() {
   return (
     <div className="container text-center">
       <h1>Hello {userName}</h1>
-      <form className="form" onSubmit={handleFormSubmit}>
+      <form className="form" onSubmit={handleContactSubmit}>
         <input
           value={email}
           name="email"
@@ -89,4 +89,4 @@ function Form() {
   );
 }
 
-export default Form;
+export default Contact;
