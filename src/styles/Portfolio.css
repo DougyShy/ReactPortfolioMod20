@@ -1,29 +1,68 @@
-.portfolio-image {
-  display: inline;
-  opacity: 0.7;
+/*body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Full viewport height */
+  /*background-color: #f0f0f0; /* Background color for the body */
+
+
+.image-container {
+  position: relative;
+  display: inline-block; /* Adjust as needed */
+  opacity: 0.8;
+  padding: 10px;
 }
 
-.portfolio-image:hover {
+.image-container:hover {
   opacity: 1;
 }
 
-.link-text {
-  display: inline;
+.image-container .overlay {
   position: absolute;
-  opacity: 0;
-  font-size: 25px;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex; /* Center the text using flexbox */
+  justify-content: left;
+  align-items: center;
+  opacity: 0; /* Initially hide the overlay */
+  transition: opacity 0.5s ease; /* Smooth transition */
 }
 
-.gitHubImg {
-  display: inline;
-  position: relative;
+.image-container:hover .overlay {
+  opacity: 1; /* Show the overlay on hover */
 }
 
-.portfolio-image:hover .link-text {
-  opacity: 0.7;
+.image-container .text {
+  color: white; /* Text color */
+  font-size: 20px; /* Text size */
+  text-align: center; /* Center text alignment */
+  padding: 20px; /* Add padding if needed */
+  opacity: 0.8;
 }
 
-.portfolio-image:hover .link-text:hover {
+.image-container:hover .text:hover {
   cursor: pointer;
   opacity: 1;
+}
+
+.image-container .github-img {
+  height: 30px;
+  width: 30px;
+  opacity: 0.8;
+  background-size: contain;
+  background: url("src/components/images/gitHubUnfocusedIcon.png");
+}
+
+.image-container .github-img:hover {
+  cursor: pointer;
+  opacity: 1;
+  background: url("src/components/images/gitHubFocusedIcon.png");
+}
+
+.text a {
+  text-decoration: none;
+  color: white;
 }
