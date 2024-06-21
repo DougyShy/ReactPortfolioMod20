@@ -28,13 +28,29 @@ function Contact() {
     }
   };
 
+  const handleBlur = (e) => {
+    // Getting the value and name of the input which triggered the change
+    const { target } = e;
+    const inputType = target.name;
+    const inputValue = target.value;
+    if (inputValue == '') {
+      if (inputType == 'userName') {
+        alert('The name field cannot be left empty.');
+      } else if (inputType == 'email') {
+        alert('The email field cannot be left empty.');
+      } else {
+        alert('The message field cannot be left empty.');
+      }
+    }
+  };
+
   const handleContactSubmit = (e) => {
     // Preventing the default behavior of the form submit (which is to refresh the page)
     e.preventDefault();
 
     // First we check to see if the email is not valid or if the userName is empty. If so we set an error message to be displayed on the page.
-    if (!validateEmail(email) || !userName) {
-      setErrorMessage('Email or username is invalid');
+    if (!validateEmail(email) || !userName || !password) {
+      setErrorMessage('Email, username, or message is invalid');
       // We want to exit out of this code block if something is wrong so that the user can correct it
       return;
       // Then we check to see if the password is not valid. If so, we set an error message regarding the password.
@@ -68,6 +84,7 @@ function Contact() {
           onChange={handleInputChange}
           type="text"
           placeholder="name"
+          onBlur={handleBlur} 
         />
         <input
           value={email}
@@ -75,6 +92,7 @@ function Contact() {
           onChange={handleInputChange}
           type="email"
           placeholder="email"
+          onBlur={handleBlur}
         />
         <input
           value={password}
@@ -82,12 +100,13 @@ function Contact() {
           onChange={handleInputChange}
           type="text"
           placeholder="message"
+          onBlur={handleBlur}
         />
         <button type="submit">Submit</button>
       </form>
       {errorMessage && (
         <div>
-          <p className="error-text">{errorMessage}</p>
+           <p className="error-text m-0">{errorMessage}</p>
         </div>
       )}
     </div>
