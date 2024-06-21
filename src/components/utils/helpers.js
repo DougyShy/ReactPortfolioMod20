@@ -4,7 +4,7 @@ export function validateEmail(email) {
   }
   
   // NOT NECESSARY FOR THIS APP YET BUT HERE IF YOU NEED IT
-  export function checkPassword(input) {
+  export function checkmessage(input) {
     const passw = /^[A-Za-z]\w{7,14}$/;
     if (input.match(passw)) {
       return true;
