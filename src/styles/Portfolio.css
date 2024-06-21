@@ -1,12 +1,3 @@
-/*body {
-  margin: 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh; /* Full viewport height */
-  /*background-color: #f0f0f0; /* Background color for the body */
-
-
 .image-container {
   position: relative;
   display: inline-block; /* Adjust as needed */
@@ -51,7 +42,6 @@
 .image-container .github-img {
   height: 30px;
   width: 30px;
-  opacity: 0.8;
   background-size: contain;
   background: url("src/components/images/gitHubUnfocusedIcon.png");
 }
