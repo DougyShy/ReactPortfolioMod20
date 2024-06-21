@@ -1,7 +1,6 @@
 .form {
   display: flex;
   flex-direction: column; 
-  background-color: lightblue;
   align-items: center;
   justify-content: center;
   width: 100%;
@@ -15,8 +14,7 @@
   min-width: 200px;
 }
 
-.bgcolor {
+.bgColor {
   background-color: lightblue;
   color: white;
 }
-  

@@ -1,8 +1,8 @@
 import { useState } from 'react';
-import '../../styles/Contact.css';
+import './style.css';
 
 // Here we import a helper function that will check if the email is valid
-import { checkPassword, validateEmail } from '../utils/helpers.js';
+import { validateEmail } from '../utils/helpers.js';
 
 function Contact() {
   // Create state variables for the fields in the form
@@ -39,6 +39,9 @@ function Contact() {
       return;
       // Then we check to see if the password is not valid. If so, we set an error message regarding the password.
     }
+
+    // CAN BE USED LATER TO APPROVE A PASSWORD
+    /*
     if (!checkPassword(password)) {
       setErrorMessage(
         `Choose a more secure password for the account: ${userName}`
@@ -46,6 +49,7 @@ function Contact() {
       return;
     }
     alert(`Hello ${userName}`);
+  */
 
     // If everything goes according to plan, we want to clear out the input after a successful registration.
     setUserName('');
@@ -54,9 +58,17 @@ function Contact() {
   };
 
   return (
-    <div className="container text-center">
-      <h1>Hello {userName}</h1>
+    <div className="container-fluid text-center bgColor">
+      <h1>Contact Me</h1>
       <form className="form" onSubmit={handleContactSubmit}>
+        
+        <input
+          value={userName}
+          name="userName"
+          onChange={handleInputChange}
+          type="text"
+          placeholder="name"
+        />
         <input
           value={email}
           name="email"
@@ -65,18 +77,11 @@ function Contact() {
           placeholder="email"
         />
         <input
-          value={userName}
-          name="userName"
-          onChange={handleInputChange}
-          type="text"
-          placeholder="username"
-        />
-        <input
           value={password}
           name="password"
           onChange={handleInputChange}
-          type="password"
-          placeholder="Password"
+          type="text"
+          placeholder="message"
         />
         <button type="submit">Submit</button>
       </form>
