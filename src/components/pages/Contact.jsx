@@ -50,7 +50,7 @@ function Contact() {
 
     // First we check to see if the email is not valid or if the userName is empty. If so we set an error message to be displayed on the page.
     if (!userName || !message) {
-      setErrorMessage('Email, username, or message is invalid');
+      setErrorMessage("Name or message is invalid");
       // We want to exit out of this code block if something is wrong so that the user can correct it
       return;
       // Then we check to see if the message is not valid. If so, we set an error message regarding the message.
@@ -104,7 +104,7 @@ function Contact() {
           value={message}
           name="message"
           onChange={handleInputChange}
-          type="text"
+          type="textarea"
           placeholder="message"
           onBlur={handleBlur}
         />

@@ -23,7 +23,7 @@ export default function Portfolio() {
       <h1>Portfolios</h1>
         <div className="d-flex flex-row flex-wrap align-items-center p-3 justify-content-around">
           <div className="image-container">
-            <img className="portfolio-image" src="src\components\images\message.png" />
+            <img className="portfolio-image" src="src\components\images\password.png" />
             <div className="overlay">
               <div className="text text-decoration-none"><a href="https://dougyshy.github.io/messageGenerator/" target="_blank" rel="noreferrer noopener">message Generator</a></div>
                 <a href="https://github.com/DougyShy/messageGenerator" target="_blank" rel="noreferrer noopener"><img className="github-img" /></a>

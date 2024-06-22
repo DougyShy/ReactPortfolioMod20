@@ -1,0 +1,8 @@
+.footer-link {
+  opacity: 0.75;
+}
+
+.footer-link:hover {
+  cursor: pointer;
+  opacity: 1;
+}
