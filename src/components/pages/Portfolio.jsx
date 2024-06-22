@@ -20,7 +20,7 @@ export default function Portfolio() {
   
   return (
     <div style={styles.portfolioStyle} className="px-5 py-3">
-      <h1>Portfolios</h1>
+      <h1>Portfolio</h1>
         <div className="d-flex flex-row flex-wrap align-items-center p-3 justify-content-around">
           <div className="image-container">
             <img className="portfolio-image" src="src\components\images\password.png" />
