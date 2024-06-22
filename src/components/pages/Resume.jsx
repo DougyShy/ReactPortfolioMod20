@@ -20,7 +20,7 @@ export default function Resume() {
       <h3>Download my resume <a href="src\components\utils\resume.txt" download>here</a></h3>
       <p>
         <ul style={styles.ulStyle}>
-          <li>Backend Proficiencies</li>
+          <li>Frontend Proficiencies</li>
           <ul style={styles.liStyle}>
               <li>HTML</li>
               <li>CSS</li>
