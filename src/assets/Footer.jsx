@@ -17,13 +17,13 @@ function Footer() {
   return (
     <div style={styles.footerStyle} className="px-5 py-3 gap-5 footer">
       <div>
-        <a href="https://github.com/DougyShy" target="_blank" rel="noreferrer noopener"><img className="footer-link" src='src\assets\images\gitHubfooter.png' /></a>
+        <a href="https://github.com/DougyShy" target="_blank" rel="noreferrer noopener"><img className="footer-link" src='src\assets\\gitHubfooter.png' /></a>
       </div>
       <div>
-        <a href="https://www.linkedin.com/in/clinton-scheible-aa0138262" target="_blank" rel="noreferrer noopener"><img className="footer-link" src='src\assets\images\linkedInFooter.png' /></a> 
+        <a href="https://www.linkedin.com/in/clinton-scheible-aa0138262" target="_blank" rel="noreferrer noopener"><img className="footer-link" src='src\assets\\linkedInFooter.png' /></a> 
       </div>
       <div>
-        <a href="https://stackoverflow.com/users/25627214/clinton-scheible" target="_blank" rel="noreferrer noopener"><img className="footer-link" src='src\assets\images\stackOverflowFooter.png' /></a>
+        <a href="https://stackoverflow.com/users/25627214/clinton-scheible" target="_blank" rel="noreferrer noopener"><img className="footer-link" src='src\assets\\stackOverflowFooter.png' /></a>
       </div>
     </div>
   );

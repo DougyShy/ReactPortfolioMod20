@@ -14,10 +14,10 @@ This is a project to encourage a student to build a portfolio website displaying
 
 This is a simple (React) website that displays a porfolio for an individual with links to past projects as well as the ability to view proficiencies and download a resume.
 
-![About](src\assets\images\readmeAbout.png)
-![Portfolio](src\assets\images\readmePortfolio.png)
-![Contact](src\assets\images\readmeContact.png)
-![Resume](src\assets\images\readmeResume.png)
+![About](src\assets\\readmeAbout.png)
+![Portfolio](src\assets\\readmePortfolio.png)
+![Contact](src\assets\\readmeContact.png)
+![Resume](src\assets\\readmeResume.png)
 
 ## Usage
 
