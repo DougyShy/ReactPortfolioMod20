@@ -43,13 +43,13 @@
   height: 30px;
   width: 30px;
   background-size: contain;
-  background: url("public/images/gitHubUnfocusedIcon.png");
+  background: url("/public/images/gitHubUnfocusedIcon.png");
 }
 
 .image-container .github-img:hover {
   cursor: pointer;
   opacity: 1;
-  background: url("public/images/gitHubFocusedIcon.png");
+  background: url("/public/images/gitHubFocusedIcon.png");
 }
 
 .text a {
