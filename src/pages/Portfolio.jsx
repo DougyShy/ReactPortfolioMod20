@@ -25,7 +25,7 @@ export default function Portfolio() {
           <div className="image-container">
             <img className="portfolio-image" src="/images/password.png" />
             <div className="overlay">
-              <div className="text text-decoration-none"><a href="https://dougyshy.github.io/messageGenerator/" target="_blank" rel="noreferrer noopener">message Generator</a></div>
+              <div className="text text-decoration-none"><a href="https://dougyshy.github.io/messageGenerator/" target="_blank" rel="noreferrer noopener">Password Generator</a></div>
                 <a href="https://github.com/DougyShy/messageGenerator" target="_blank" rel="noreferrer noopener"><img className="github-img" /></a>
             </div>  
           </div>
