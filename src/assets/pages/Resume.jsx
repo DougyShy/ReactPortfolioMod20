@@ -17,10 +17,10 @@ const styles = {
 export default function Resume() {
   return (
     <div style={styles.resumeStyle} className="px-5 py-3">
-      <h3>Download my resume <a href="src\components\utils\resume.txt" download>here</a></h3>
+      <h3>Download my resume <a href="src\assets\utils\resume.txt" download>here</a></h3>
       <p>
         <ul style={styles.ulStyle}>
-          <li>Backend Proficiencies</li>
+          <li>Frontend Proficiencies</li>
           <ul style={styles.liStyle}>
               <li>HTML</li>
               <li>CSS</li>

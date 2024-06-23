@@ -4,7 +4,7 @@ const styles = {
   headerStyle: {
     color: 'white',
     height: 100,
-    backgroundImage: "url('src/components/images/diagonalStripes.jpg')"
+    backgroundImage: "url('src/assets/images/diagonalStripes.jpg')"
   },
   headingStyle: {
     fontSize: '50px',

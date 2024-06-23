@@ -23,21 +23,21 @@ export default function Portfolio() {
       <h1>Portfolios</h1>
         <div className="d-flex flex-row flex-wrap align-items-center p-3 justify-content-around">
           <div className="image-container">
-            <img className="portfolio-image" src="src\components\images\password.png" />
+            <img className="portfolio-image" src="src\assets\images\password.png" />
             <div className="overlay">
               <div className="text text-decoration-none"><a href="https://dougyshy.github.io/messageGenerator/" target="_blank" rel="noreferrer noopener">message Generator</a></div>
                 <a href="https://github.com/DougyShy/messageGenerator" target="_blank" rel="noreferrer noopener"><img className="github-img" /></a>
             </div>  
           </div>
           <div className="image-container">
-            <img className="portfolio-image" src="src\components\images\logoMaker.png" />
+            <img className="portfolio-image" src="src\assets\images\logoMaker.png" />
             <div className="overlay">
             <div className="text text-decoration-none"><a href="https://www.youtube.com/watch?v=QmciF-lAsyY" target="_blank" rel="noreferrer noopener">Simple Logo Maker</a></div>
               <a href="https://github.com/DougyShy/SVG-Logo-Maker" target="_blank" rel="noreferrer noopener"><img className="github-img" /></a>
             </div>  
           </div>
           <div className="image-container">
-            <img className="portfolio-image" src="src\components\images\scheduler.png" />
+            <img className="portfolio-image" src="src\assets\images\scheduler.png" />
             <div className="overlay">
             <div className="text text-decoration-none"><a href="https://dougyshy.github.io/WorkScheduler/" target="_blank" rel="noreferrer noopener">Work Day Scheduler</a></div>
               <a href="https://github.com/DougyShy/WorkScheduler" target="_blank" rel="noreferrer noopener"><img className="github-img" /></a>
@@ -47,21 +47,21 @@ export default function Portfolio() {
 
         <div className="d-flex flex-row flex-wrap align-items-center p-3 justify-content-around">
           <div className="image-container">
-            <img className="portfolio-image" src="src\components\images\employeeTracker.png" />
+            <img className="portfolio-image" src="src\assets\images\employeeTracker.png" />
             <div className="overlay">
             <div className="text text-decoration-none"><a href="https://www.loom.com/share/4fb9c0aac8864ccf9423b740994e1a15?sid=4680feae-3dd1-40ed-b771-93bd7d6b47db" target="_blank" rel="noreferrer noopener">Employee Tracker</a></div>
             <a href="https://github.com/DougyShy/Employee-Tracker" target="_blank" rel="noreferrer noopener"><img className="github-img" /></a>
             </div>  
           </div>
           <div className="image-container">
-            <img className="portfolio-image" src="src\components\images\ecommerce.png" />
+            <img className="portfolio-image" src="src\assets\images\ecommerce.png" />
             <div className="overlay">
             <div className="text text-decoration-none"><a href="https://www.loom.com/share/72b74d7f57a54059bb68ab0cac5cb03e" target="_blank" rel="noreferrer noopener">E-Commerce Back End</a></div>
                <a href="https://github.com/DougyShy/E-commerce-Back-End" target="_blank" rel="noreferrer noopener"><img className="github-img" /></a>
             </div>  
           </div>
           <div className="image-container">
-            <img className="portfolio-image" src="src\components\images\social.png" />
+            <img className="portfolio-image" src="src\assets\images\social.png" />
             <div className="overlay">
             <div className="text text-decoration-none"><a href="https://www.loom.com/share/5b8b545cfae6475285796944be0c0891" target="_blank" rel="noreferrer noopener">Social Network API</a></div>
                <a href="https://github.com/DougyShy/Social-Network-API " target="_blank" rel="noreferrer noopener"><img className="github-img"/></a>
