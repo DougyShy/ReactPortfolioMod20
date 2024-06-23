@@ -1,10 +1,10 @@
-import '../styles/NavTabs.css';
+import '../../public/css/NavTabs.css';
 
 const styles = {
   headerStyle: {
     color: 'white',
     height: 100,
-    backgroundImage: "url('src/assets//diagonalStripes.jpg')"
+    backgroundImage: "url('/images/diagonalStripes.jpg')"
   },
   headingStyle: {
     fontSize: '50px',
